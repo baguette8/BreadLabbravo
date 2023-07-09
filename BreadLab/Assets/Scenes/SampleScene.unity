@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodPrefab: {fileID: 6677101524014202545, guid: cde8f6ef8e45aab48b32eb6f306b804c, type: 3}
-  spawnRate: 25
+  spawnRate: 10
 --- !u!4 &20187354
 Transform:
   m_ObjectHideFlags: 0
@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 1215960289}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -851,7 +851,7 @@ MonoBehaviour:
   - {fileID: 8998509610808100564, guid: 6b5235eb281ad3c47a8812d092e21bc0, type: 3}
   - {fileID: 8998509610808100564, guid: 6b5235eb281ad3c47a8812d092e21bc0, type: 3}
   - {fileID: 8998509610808100564, guid: 6b5235eb281ad3c47a8812d092e21bc0, type: 3}
-  predatorCount: 20
+  predatorCount: 10
   planeSize: 250
 --- !u!1 &1530586613
 GameObject:
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 1656424310}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 1746343813}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1168,7 +1168,7 @@ GameObject:
   - component: {fileID: 1778309911}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Barrier
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1314,5 +1314,5 @@ MonoBehaviour:
   - {fileID: 7248352911924919180, guid: 305c2687713efb144838e0cf347c8751, type: 3}
   - {fileID: 7248352911924919180, guid: 305c2687713efb144838e0cf347c8751, type: 3}
   - {fileID: 7248352911924919180, guid: 305c2687713efb144838e0cf347c8751, type: 3}
-  critterCount: 60
+  critterCount: 20
   planeSize: 250
